@@ -1,0 +1,26 @@
+{
+  "name": "highlightjs-gf",
+  "version": "1.0.0",
+  "description": "highlight.js syntax definition for the Grammatical Framework language",
+  "main": "src/gf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnjcamilleri/highlightjs-gf.git"
+  },
+  "keywords": [
+    "grammatical framework",
+    "gf",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "John J. Camilleri <john@johnjcamilleri.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnjcamilleri/highlightjs-gf/issues"
+  },
+  "homepage": "https://github.com/johnjcamilleri/highlightjs-gf"
+}
