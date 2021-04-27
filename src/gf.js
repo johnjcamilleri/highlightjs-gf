@@ -6,7 +6,7 @@ Description: GF is a programming language for multilingual grammar applications
 Website: https://www.grammaticalframework.org
 */
 
-function(hljs) {
+module.exports = function (hljs) {
   var COMMENT = {
     variants: [
       hljs.COMMENT('--', '$'), // $ here means end of line
@@ -18,19 +18,19 @@ function(hljs) {
         }
       )
     ]
-  };
+  }
 
   var PRAGMA = {
     className: 'meta',
     begin: '--#', end: '$',
     relevance: 0
-  };
+  }
 
   var SYMBOL = {
     className: 'symbol',
     begin: '=>|->|:|=|\\.|\\+|\\*|\!|\\||\\\\',
     relevance: 0
-  };
+  }
 
   return {
     aliases: ['gf'],
@@ -49,5 +49,5 @@ function(hljs) {
 
       {begin: '{\s*s\s*:', relevance: 10} // No markup, relevance booster
     ]
-  };
+  }
 }
