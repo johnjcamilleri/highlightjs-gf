@@ -12,8 +12,7 @@ This module is just a CDN build of the language, so it will register itself as t
 
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script type="text/javascript" charset="UTF-8"
-  src="/path/to/highlightjs-gf/dist/gf.min.js"></script>
+<script type="text/javascript" src="/path/to/gf.min.js"></script>
 <script type="text/javascript">
   hljs.initHighlightingOnLoad();
 </script>
@@ -37,7 +36,7 @@ var hljs = require('highlightjs');
 var hljsGF = require('highlightjs-gf');
 
 hljs.registerLanguage("gf", hljsGF);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 

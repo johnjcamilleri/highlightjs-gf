@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-gf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "highlight.js syntax definition for the Grammatical Framework language",
   "main": "src/gf.js",
   "scripts": {
